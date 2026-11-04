@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="decreto-autonomia-acores-1895.css"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" version="3.1">
+  <act name="decreto" contains="originalVersion">
+    <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/!main"/>
+          <FRBRuri value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores"/>
+          <FRBRdate date="1895-03-02" name="enactment"/>
+          <FRBRauthor href="#government" as="#author"/>
+          <FRBRcountry value="pt"/>
+          <FRBRsubtype value="decreto"/>
+          <FRBRname value="decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/por@1895-03-02/!main"/>
+          <FRBRuri value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/por@1895-03-02"/>
+          <FRBRdate date="1895-03-02" name="enactment"/>
+          <FRBRauthor href="#government" as="#author"/>
+          <FRBRauthoritative value="true"/>
+          <FRBRlanguage language="por"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/por@1895-03-02/!main.xml"/>
+          <FRBRuri value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/por@1895-03-02.xml"/>
+          <FRBRdate date="2026-11-03" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="1895-03-04" name="Diário do Governo" showAs="Diário do Governo, n.º 50" number="50"/>
+      <references source="#gvergottini">
+        <TLCOrganization eId="government" GUID="6FA264B5-69FE-4259-9AAF-F472D29BA7BC" href="/ontology/organization/pt.governo" showAs="Governo do Reino de Portugal"/>
+        <TLCPerson eId="hr" GUID="B309311A-352B-4528-9AA9-BF5931F11912" href="/ontology/person/pt.hr" showAs="Ernesto Rodolpho Hintze Ribeiro"/>
+        <TLCPerson eId="fr" GUID="E39F6B55-E1E3-46C0-A042-F47053867AE4" href="/ontology/person/pt.fr" showAs="João Ferreira Franco Pinto Castello Branco"/>
+        <TLCPerson eId="az" GUID="E93FBE6B-DCB0-4BC6-8204-FD490E86F056" href="/ontology/person/pt.az" showAs="Antonio d'Azevedo Castello Branco"/>
+        <TLCPerson eId="pi" GUID="5D7D095F-5F21-4D35-B2B7-276A1A6F03CA" href="/ontology/person/pt.pi" showAs="Luiz Augusto Pimentel Pinto"/>
+        <TLCPerson eId="al" GUID="14CB04E7-4860-4173-B3A3-75030CAE0FBF" href="/ontology/person/pt.al" showAs="José Bento Ferreira de Almeida"/>
+        <TLCPerson eId="lo" GUID="F4412303-3C51-41B9-867E-B4DE32682143" href="/ontology/person/pt.lo" showAs="Carlos Lobo d'Avila"/>
+        <TLCPerson eId="he" GUID="43D44C7F-01BC-4559-88F2-253B24EA7F91" href="/ontology/person/pt.he" showAs="Arthur Alberto de Campos Henriques"/>
+        <TLCPerson eId="gvergottini" GUID="9394CC9F-93DF-498C-A007-A9B1C63F0CDD" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCRole eId="author" GUID="9C398F1F-D03D-4717-BF90-52C73371C0CC" href="/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="minister" GUID="9AD439A2-B55E-42CB-899A-C7F4456241C6" href="/ontology/role/pt.ministro" showAs="Ministro e secretario d'estado"/>
+        <TLCRole eId="editor" GUID="4E1F2707-FB1F-4029-A3D6-AEB17067F2BE" href="/ontology/role/editor" showAs="Editor"/>
+      </references>
+    </meta>
+    <preamble xml:lang="pt">
+      <container name="report" eId="report" GUID="CEE22583-F36F-4A9B-B025-A806B6FA103B">
+        <p>Senhor.— São conhecidas as vivas e instantes <eol breakAt="7" breakWith="-"/>reclamações dos povos de um dos districtos açorianos, no sentido <eol/>do restabelecimento das juntas geraes, com largas <eol breakAt="5" breakWith="-"/>attribuições e faculdades. A distancia a que ficam do <eol breakAt="8" breakWith="-"/>continente, e, portanto, do poder central, e a pouca frequencia das <eol/>communicações, são, com effeito, circumstancias especiaes <eol/>e ponderosas que explicam e legitimam esta aspiração, a <eol/>que por motivos de interesse publico o governo julga <eol breakAt="3" breakWith="-"/>conveniente attender no seguinte projecto de decreto, que <eol/>tem a honra de submetter á approvação de Vossa <eol breakAt="5" breakWith="-"/>Magestade.</p>
+        <p>A titulo de ensaio ou experiencia, formulámos este <eol breakAt="2" breakWith="-"/>diploma de caracter excepcional no systema das nossas <eol breakAt="2" breakWith="-"/>instituições administrativas; e as suas disposições só <eol breakAt="4" breakWith="-"/>poderão ter execução em qualquer dos districtos açorianos, se <eol/>assim for requerido por dois terços, pelo menos, dos <eol breakAt="4" breakWith="-"/>cidadãos elegiveis para cargos administrativos.</p>
+        <p>Pareceu-nos opportuno fazer preceder por essa solemne <eol/>affirmação da vontade da maioria dos cidadãos a <eol breakAt="7" breakWith="-"/>applicação de um regimen que só na zelosa e porfiada iniciativa <eol/>das actividades locaes póde ter garantias de utilidade e <eol/>de efficacia para o bem-estar e prosperidade dos povos. <eol/>Assim a realidade pratica venha a corresponder ás <eol breakAt="6" breakWith="-"/>confiadas esperanças dos que reclamam esta providencia, e aos <eol/>sinceros sentimentos que animam o governo em favor de <eol/>povos a que a patria commum deve tão assignalados e <eol breakAt="3" breakWith="-"/>gloriosos serviços.</p>
+        <p>Não se trata de restaurar pura e simplesmente as <eol breakAt="3" breakWith="-"/>juntas geraes, taes como existiam pelo codigo administrativo <eol/>de 1886. Concedem-se-lhes faculdades mais amplas, e <eol breakAt="3" breakWith="-"/>confiam-se-lhes mais numerosos e importantes serviços, até <eol/>aqui a cargo do estado, como são os de viação não <eop number="310a" breakAt="4" breakWith="-"/>municipal, os de construcção, reparação e policia dos portos de <eol/>pequena cabotagem e de pharoes, excepto os dos portos <eol/>artificiaes, e ainda os serviços agronomicos e pecuarios. <eol/>Dão-se-lhes os meios necessarios para o desempenho da <eol/>missão que se lhes incumbe, resalvando-se para o estado <eol/>as garantias indispensaveis, proporcionadas á largueza e <eol/>importancia das concessões feitas. Se d'estas usarem bem, <eol/>lucrarão os interesses locaes, sem novos encargos para o <eol/>thesouro, pois os recursos que se conferem a estas <eol breakAt="5" breakWith="-"/>corporações correspondem approximadamente ás dotações <eol breakAt="2" breakWith="-"/>annuaes actualmente consignadas para os serviços, hoje a <eol/>cargo do estado, e que passam para as juntas geraes. Em <eol/>todo o caso, a tutela salutar do poder central fica <eol breakAt="6" breakWith="-"/>assegurada em todos os assumptos que possam affectar os <eol breakAt="4" breakWith="-"/>interesses superiores do estado, quaes são, principalmente, os <eol/>impostos e os emprestimos, a dotação dos serviços ou de <eol/>empregos, e projectos e orçamentos de obras de valor <eol breakAt="2" breakWith="-"/>excedente a 1:000$000 réis.</p>
+        <p>A organisação dos serviços do districto e da fazenda <eol/>districtal harmonisam-se, como era logico, com a indole e <eol/>as faculdades das novas corporações. Faculta-se ás juntas <eol/>todo o pessoal technico necessario aos serviços de obras <eol/>publicas, agronomicos e pecuarios, alem do material de <eol/>que o estado possa dispor em beneficio d'esses serviços; <eol/>e entregando-se-lhes uma parte das receitas já <eol breakAt="8" breakWith="-"/>arrecadadas para soccorros a naufragos e hospitalisação de <eol breakAt="6" breakWith="-"/>alienados — dois serviços importantissimos para que as <eol breakAt="6" breakWith="-"/>circumstancias locaes reclamam muito zêlo e urgentes <eol breakAt="8" breakWith="-"/>providencias — confia-se-lhes tambem, integralmente, o producto, <eol/>liquido de despezas de cobrança, das contribuições directas <eol/>predial, industrial, de renda de casas e sumptuaria, <eol breakAt="5" breakWith="-"/>acrescidas com todos os seus addicionaes, tanto os fixados por <eol/>leis geraes do estado, como os que as extinctas juntas <eol breakAt="2" breakWith="-"/>geraes cobravam, podendo estes elevar-se ainda até 15 por <eol/>cento, maximo auctorisado legalmente á data da <eol breakAt="6" breakWith="-"/>promulgação do decreto de 6 de agosto de 1892.</p>
+        <p>A proposta organisação das juntas geraes importa <eol breakAt="4" breakWith="-"/>algumas modificações no regimen de outros corpos e <eol breakAt="8" breakWith="-"/>instituições administrativas. Tornando-se as juntas as mais <eol breakAt="5" breakWith="-"/>importantes corporações locaes, os municipios naturalmente lhes <eol/>devem ficar subordinados para a generalidade das <eol breakAt="6" breakWith="-"/>deliberações dependentes de confirmação tutelar, reservando-se <eol/>apenas para o governo a confirmação d'aquellas <eol breakAt="8" breakWith="-"/>deliberações que pela sua natureza especial não podem <eol breakAt="9" breakWith="-"/>actualmente deixar de sujeitar-se á sancção do poder central, como <eol/>são, por exemplo, os emprestimos e a creação de <eol breakAt="5" breakWith="-"/>empregos.</p>
+        <p>No mais, em tudo quanto não é indispensavel alterar para <eol/>o regular e util funccionamento das juntas geraes, <eol breakAt="6" breakWith="-"/>subsistem para os Açores todas as disposições consignadas no <eol/>novo codigo administrativo.</p>
+        <p>N'estes termos, e como um ensaio para a realisação <eol breakAt="3" breakWith="-"/>pratica das aspirações de alguns dos povos açorianos, <eol breakAt="5" breakWith="-"/>attendendo ás circumstancias especiaes em que elles se <eol breakAt="5" breakWith="-"/>encontram, apresentâmos á approvação de Vossa Magestade o <eol/>seguinte projecto de decreto.</p>
+        <p class="signed">Paço, em 2 de março de 1895. = <person refersTo="#hr" as="#minister">Ernesto <eol breakAt="5" breakWith="-"/>Rodolpho Hintze Ribeiro</person> = <person refersTo="#fr" as="#minister">João Ferreira Franco Pinto Castello <eol/>Branco</person> = <person refersTo="#az" as="#minister">Antonio d'Azevedo Castello Branco</person> = <person refersTo="#pi" as="#minister">Luiz <eol breakAt="2" breakWith="-"/>Augusto Pimentel Pinto</person> = <person refersTo="#al" as="#minister">José Bento Ferreira de Almeida</person> = <eol/><person refersTo="#lo" as="#minister">Carlos Lobo d'Avila</person> = <person refersTo="#he" as="#minister">Arthur Alberto de Campos <eol breakAt="3" breakWith="-"/>Henriques</person>.</p>
+      </container>
+      <formula name="enactingFormula"><p>Attendendo ao que me representaram os ministros e <eol breakAt="2" breakWith="-"/>secretarios d'estado de todas as repartições: hei por bem <eol/>decretar o seguinte:</p></formula>
+    </preamble>
+    <body xml:lang="pt">
+        <article eId="art_1" GUID="36F42A4D-9AC9-4701-A883-5BEB9739FF48"><num>Artigo 1.º</num>
+          <content><p>Quando em algum dos districtos <eol breakAt="10" breakWith="-"/>administrativos dos Açores assim o requeiram dois terços, pelo <eol breakAt="2" breakWith="-"/>menos, dos cidadãos elegiveis para os cargos administrativos, <eol/>poderá o governo, por decreto publicado na folha official, <eol/>auctorisar que a esse districto se applique a organisação, <eop number="310b"/>que com o presente decreto baixa assignada pelo ministro <eol/>e secretario d'estado dos negocios do reino.</p></content>
+        </article>
+        <article eId="art_2" GUID="3CE84160-E4C6-4E82-894D-130AC46BADF6"><num>Art. 2.º</num>
+          <content><p>No mesmo decreto, em que for auctorisada a <eol/>referida organisação, o governo fixará o numero de <eol breakAt="3" breakWith="-"/>procuradores, que cada um dos concelhos deverá eleger para <eol/>a respectiva junta geral.</p></content>
+        </article>
+        <article eId="art_3" GUID="2C8C32ED-01B6-468A-8F39-68BBC84C50F7"><num>Art. 3.º</num>
+          <content><p>Fica revogada a legislação em contrario.</p></content>
+        </article>
+    </body>
+    <conclusions xml:lang="pt">
+      <p class="signed">O presidente do conselho de ministros e os ministros e <eol/>secretarios d'estado de todas as repartições assim o tenham <eol/>entendido e façam executar. Paço, em 2 de março de <eol/>1895. = REI. = <person refersTo="#hr" as="#minister">Ernesto Rodolpho Hintze Ribeiro</person> = <person refersTo="#fr" as="#minister">João <eol/>Ferreira Franco Pinto Castello Branco</person> = <person refersTo="#az" as="#minister">Antonio <eol breakAt="5" breakWith="-"/>d'Azevedo Castello Branco</person> = <person refersTo="#pi" as="#minister">Luiz Augusto Pimentel Pinto</person> = <eol/><person refersTo="#al" as="#minister">José Bento Ferreira de Almeida</person> = <person refersTo="#lo" as="#minister">Carlos Lobo d'Avila</person> = <eol/><person refersTo="#he" as="#minister">Arthur Alberto de Campos Henriques</person>.</p>
+    </conclusions>
+    <attachments>
+      <attachment eId="att_1" GUID="B44CD002-1DDB-4A93-9ABC-D104FA9664E0">
+        <heading>Organisação administrativa a que se refere o decreto d'esta data</heading>
+        <act name="organisacao" contains="originalVersion">
+          <meta>
+          <identification source="#gvergottini_a">
+        <FRBRWork>
+          <FRBRthis value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/!annex/!main"/>
+          <FRBRuri value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/!annex"/>
+          <FRBRdate date="1895-03-02" name="enactment"/>
+          <FRBRauthor href="#government" as="#author"/>
+          <FRBRcountry value="pt"/>
+          <FRBRsubtype value="decreto"/>
+          <FRBRname value="decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/!annex/por@1895-03-02/!main"/>
+          <FRBRuri value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/!annex/por@1895-03-02"/>
+          <FRBRdate date="1895-03-02" name="enactment"/>
+          <FRBRauthor href="#government" as="#author"/>
+          <FRBRauthoritative value="true"/>
+          <FRBRlanguage language="por"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/!annex/por@1895-03-02/!main.xml"/>
+          <FRBRuri value="/akn/pt/act/decreto/1895-03-02/autonomia-administrativa-acores/!annex/por@1895-03-02.xml"/>
+          <FRBRdate date="2026-11-03" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+          <references source="#gvergottini"><TLCPerson eId="gvergottini_a" GUID="4A818C8E-3F30-49D9-A79C-5910C151197A" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/></references>
+          </meta>
+          <body xml:lang="pt">
+            <chapter eId="att_1__chp_I" GUID="775011BA-AA34-48E7-8ECF-1624705277A5"><num>CAPITULO I</num><heading>Constituição e modo de funccionar das juntas geraes</heading>
+              <article eId="att_1__art_1" GUID="6427642A-4479-4DE8-B862-557DAF4F966D"><num>Artigo 1.º</num>
+                <content><p>Em cada districto dos Açores, a que for <eol/>applicada esta organisação administrativa, haverá uma <eol/>junta geral, composta de vinte e cinco procuradores, e de <eol/>igual numero de substitutos, eleitos directamente pelos <eol breakAt="3" breakWith="-"/>respectivos concelhos, observando-se o mesmo processo que <eol/>o codigo administrativo estabelece para a eleição das <eol breakAt="2" breakWith="-"/>camaras municipaes.</p></content>
+              </article>
+              <article eId="att_1__art_2" GUID="DF264872-137F-4A4D-9701-81DEBCD2551C"><num>Art. 2.º</num>
+                <intro><p>Quando no mesmo dia se proceder a eleições <eol/>para cargos municipaes e districtaes, estarão sobre a mesa <eol/>da assembléa eleitoral duas urnas, tendo cada uma seu <eol/>distico, por fórma a todos visivel, que indique a eleição a <eol/>que é destinada.</p></intro>
+                <paragraph eId="att_1__art_2__para_1" GUID="6A0C7FB0-48E8-47AF-9B1F-4227C0BDBBB8"><num>§ 1.º</num>
+                  <content><p>Não são admittidos a votar os eleitores que não <eol/>apresentarem uma lista para cada urna.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_2__para_2" GUID="965CB3E9-8A60-43EA-A549-F7E23F215D99"><num>§ 2.º</num>
+                  <content><p>As listas devem conter, sob pena de nullidade, <eol/>na parte interna e no alto d'ella, a designação do cargo <eol/>municipal ou districtal para que se vota.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_2__para_3" GUID="54C64437-A77D-4C7C-88C4-464D0C426ABF"><num>§ 3.º</num>
+                  <content><p>São nullas as listas encontradas em urna differente <eol/>d'aquella a que eram destinadas.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_2__para_4" GUID="865E18FE-FE7B-4A5F-8D58-D1A6D4A6D760"><num>§ 4.º</num>
+                  <content><p>A leitura das listas e a contagem dos votos <eol breakAt="4" breakWith="-"/>começarão pelos cargos districtaes.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_2__para_5" GUID="76533E00-16FA-431D-820C-249938DB4471"><num>§ 5.º</num>
+                  <content><p>Na falta de eleição compete ao governador civil, <eol/>ouvida a commissão districtal, a nomeação para os cargos <eol/>districtaes, depois de feita segunda convocação dos <eol breakAt="6" breakWith="-"/>eleitores.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_3" GUID="47F93866-8A9B-4077-889F-CD0617300EBF"><num>Art. 3.º</num>
+                <content><p>O numero dos procuradores pertencentes a cada <eol/>concelho, depois de fixado pelo governo, só por lei póde <eol/>ser alterado.</p></content>
+              </article>
+              <article eId="att_1__art_4" GUID="ADEC5A84-66CE-418C-8829-29355BE76116"><num>Art. 4.º</num>
+                <content><p>O procurador eleito por mais de um concelho <eol/>representará aquelle em que residir ao tempo da eleição; <eol/>se em nenhum d'esses circulos tiver residencia permanente, <eol/>aquelle em que tiver obtido maior votação; e, no caso de <eol/>igualdade de votos, o que a sorte designar, devendo a junta <eol/>geral proceder a este acto na sua primeira sessão.</p></content>
+              </article>
+              <article eId="att_1__art_5" GUID="7FA8F1CF-57B1-4313-ADA7-5AD4D0927DB2"><num>Art. 5.º</num>
+                <content><p>A junta geral serve por tres annos civis.</p></content>
+              </article>
+              <article eId="att_1__art_6" GUID="5325B33C-9A96-498F-BE52-967C7E651ECD"><num>Art. 6.º</num>
+                <intro><p>A junta geral tem duas sessões ordinarias em <eol/>cada anno, uma que começa em 1 de abril e outra em 1 <eol/>de novembro, e que podem durar, segundo parecer á <eol breakAt="3" breakWith="-"/>mesma junta, até o ultimo dia dos referidos mezes.</p></intro>
+                <paragraph eId="att_1__art_6__para_1" GUID="D2DB4F5D-1D2B-4E11-9513-94D11176E8D6"><num>§ 1.º</num>
+                  <content><p>As sessões da junta geral podem, a seu pedido, <eol/>ser prorogadas pelo governo.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_6__para_2" GUID="F08062EA-2B1A-4DC5-B601-8B551A586503"><num>§ 2.º</num>
+                  <content><p>Alem das duas sessões annuaes, ha mais uma <eol breakAt="3" breakWith="-"/>sessão ordinaria no dia 2 de janeiro do primeiro anno de <eol breakAt="2" breakWith="-"/>todos os triennios, e, no caso de eleição fóra da epocha <eol breakAt="2" breakWith="-"/>ordinaria, no primeiro dia util depois do terceiro domingo <eol/>immediato ao do apuramento, podendo estas sessões <eol breakAt="2" breakWith="-"/>durar oito dias uteis.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_6__para_3" GUID="1AC3C073-72DC-4A8A-892B-89105EE6A390"><num>§ 3.º</num>
+                  <content><p>Nas sessões, a que se refere o § 2.º, verifica-se <eol/>a legalidade das procurações e a identidade dos eleitos, e <eol/>procede-se á constituição da junta e á eleição da <eop number="311a" breakAt="6" breakWith="-"/>commissão districtal, mas não se póde tratar de outro assumpto, <eol/>excepto sendo de reconhecida urgencia.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_7" GUID="83197F9D-6234-4C4F-8EE8-AEFB53182593"><num>Art. 7.º</num>
+                <content><p>A junta geral reunir-se-ha extraordinariamente <eol/>todas as vezes que o exigirem as necessidades do serviço <eol/>publico, ou estiver ordenado por alguma disposição de <eol/>lei, terminando cada uma d'estas sessões com a resolução <eol/>dos negocios que motivaram a reunião.</p></content>
+              </article>
+              <article eId="att_1__art_8" GUID="47C19CE4-4227-4EB9-AB26-A92D3A39C56A"><num>Art. 8.º</num>
+                <intro><p>Para as sessões ordinarias ou extraordinarias, <eol/>com dias fixados por lei ou regulamento, não é necessaria <eol/>a convocação; para as sessões extraordinarias a <eol breakAt="7" breakWith="-"/>convocação é feita por decreto do governo, ou por officio circular <eol/>do governador civil, se a reunião estiver auctorisada por <eol/>lei, mas sem designação do dia.</p></intro>
+                <paragraph eId="att_1__art_8__para_unico" GUID="AE5C41AB-7428-487D-B03A-2A6098F7285B"><num>§ unico.</num>
+                  <content><p>A reunião no primeiro dia de cada sessão <eol breakAt="4" breakWith="-"/>ordinaria ou extraordinaria será ás onze horas da manhã, e nos <eol/>outros dias á hora que for marcada pela junta.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_9" GUID="F44C61A7-C7D5-4266-A881-AD916AE12D7F"><num>Art. 9.º</num>
+                <content><p>As sessões da junta geral são abertas e <eol breakAt="5" breakWith="-"/>encerradas pelo governador civil em nome do Rei, seja qual for <eol/>o numero dos vogaes presentes.</p></content>
+              </article>
+              <article eId="att_1__art_10" GUID="701504EB-3554-48EE-AEA6-216E337164F5"><num>Art. 10.º</num>
+                <content><p>A junta geral reune-se e funcciona no edificio <eol/>do governo civil.</p></content>
+              </article>
+              <article eId="att_1__art_11" GUID="D5F0AF29-73E1-4D00-A729-CC3967906852"><num>Art. 11.º</num>
+                <content><p>O governador civil póde assistir ás sessões da <eol/>junta geral, será ouvido quando o pedir, podendo fazer as <eol/>propostas que achar convenientes, e toma assento ao lado <eol/>direito do presidente.</p></content>
+              </article>
+              <article eId="att_1__art_12" GUID="C0B8FA62-1307-413F-95D1-7D69B222B1B8"><num>Art. 12.º</num>
+                <intro><p>De entre os procuradores á junta geral o <eol breakAt="2" breakWith="-"/>governo nomeará annualmente por decreto o presidente, que <eol/>funccionará emquanto não for pela mesma fórma <eol breakAt="6" breakWith="-"/>substituido ou reconduzido, mas nunca alem da posse dos <eol breakAt="3" breakWith="-"/>procuradores novamente eleitos.</p></intro>
+                <paragraph eId="att_1__art_12__para_1" GUID="C80131A6-02D1-4621-9BA4-E3B901B5F6E4"><num>§ 1.º</num>
+                  <content><p>O vice-presidente, secretario e vice-secretario <eol breakAt="2" breakWith="-"/>serão pela junta nomeados annualmente, em escrutinio <eol breakAt="2" breakWith="-"/>secreto, na primeira sessão de cada anno, servindo de <eol breakAt="2" breakWith="-"/>secretario, até se effectuar a nomeação, o mais novo dos <eol breakAt="2" breakWith="-"/>vogaes presentes.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_12__para_2" GUID="9061E204-8580-4AA5-B8EE-7C11D405F2BD"><num>§ 2.º</num>
+                  <content><p>Emquanto não estiver nomeado o presidente ou <eol/>o vice-presidente, servirá por elles o mais velho dos <eol breakAt="3" breakWith="-"/>procuradores eleitos.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_12__para_3" GUID="D3BD7024-4218-47E3-A6EC-83C809448607"><num>§ 3.º</num>
+                  <content><p>No caso de igualdade de votos entre o secretario <eol/>e vice-secretario preferirá o mais novo dos votados.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_12__para_4" GUID="10598D05-0708-4642-BCF8-2287556E14A6"><num>§ 4.º</num>
+                  <content><p>Nas faltas e impedimentos permanentes do <eol breakAt="5" breakWith="-"/>secretario e vice-secretario procede-se sempre a nova nomeação <eol/>para estes cargos.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_12__para_5" GUID="4C042240-6821-4ED9-B1A8-3252A9BE3E0A"><num>§ 5.º</num>
+                  <content><p>Nos impedimentos temporarios do secretario e <eol breakAt="2" breakWith="-"/>vice-secretario servirá de secretario o mais novo dos vogaes <eol/>presentes.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_13" GUID="ECF80D88-C490-4F7F-8E4C-2B401BB4BE56"><num>Art. 13.º</num>
+                <intro><p>A junta geral terá os empregados que forem <eol/>necessarios para o seu expediente, e para o dos serviços <eol/>da sua competencia.</p></intro>
+                <paragraph eId="att_1__art_13__para_unico" GUID="3EDAA6F4-77E2-4362-86B6-6D590B487ACE"><num>§ unico.</num>
+                  <content><p>O quadro d'estes empregados será proposto pela <eol/>junta geral e fixado pelo governo.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_14" GUID="4D0896FA-089E-48DC-BD15-28F5122785D1"><num>Art. 14.º</num>
+                <content><p>É applicavel á junta geral e ao seu <eol breakAt="5" breakWith="-"/>presidente o disposto no codigo administrativo ácerca da <eol breakAt="3" breakWith="-"/>dissolução das camaras municipaes dos concelhos de primeira <eol/>ordem e da destituição dos presidentes das camaras <eol breakAt="2" breakWith="-"/>municipaes nomeados pelo governo.</p></content>
+              </article>
+              <article eId="att_1__art_15" GUID="129B91DE-EBAB-41ED-BEAE-F2D35447DEE5"><num>Art. 15.º</num>
+                <content><p>Á junta geral pertence fazer o seu regimento <eol/>interno, regulando o modo de desempenhar os seus <eol breakAt="5" breakWith="-"/>trabalhos, e de exercer as suas attribuições na conformidade <eol/>das disposições geraes do codigo administrativo ácerca das <eol/>reuniões e deliberações dos corpos administrativos, e do <eol/>disposto n'este decreto.</p></content>
+              </article>
+              <article eId="att_1__art_16" GUID="11458110-4102-4540-BD2B-5909A2374250"><num>Art. 16.º</num>
+                <content><p>A junta geral corresponde-se directamente, por <eol/>via do seu presidente, com todas as auctoridades e <eol breakAt="5" breakWith="-"/>repartições publicas dos districtos; com o governo, porém, e <eol/>com as repartições superiores, corresponde-se <eol breakAt="10"/>dirigindo-lhes representações, assignadas pelo presidente, e <eol breakAt="5" breakWith="-"/>entregues ao governador civil, para este as enviar aos seus <eol breakAt="3" breakWith="-"/>destinos com as informações que julgar convenientes.</p></content>
+              </article>
+              <article eId="att_1__art_17" GUID="EC67BD8B-CA0B-4742-BB0E-F9ACCC968F84"><num>Art. 17.º</num>
+                <intro><p>Das deliberações tomadas em cada dia de <eol/>sessão entregará no dia seguinte o presidente da junta <eol breakAt="2" breakWith="-"/>geral ao governador civil um resumo, que tambem fará <eop number="311b" breakAt="4" breakWith="-"/>affixar á porta do edificio do governo civil; e, quando aquelle <eol/>magistrado o exigir, lhe dará copia authentica do teor das <eol/>mesmas deliberações, assim como dos autos e contratos a <eol/>que ellas se referirem.</p></intro>
+                <paragraph eId="att_1__art_17__para_1" GUID="81AE1953-C052-4307-8DDB-ACB9A20A8087"><num>§ 1.º</num>
+                  <content><p>Da entrega dos documentos mencionados n'este <eol/>artigo deverá o governador civil passar recibo para os <eol breakAt="2" breakWith="-"/>effeitos legaes, e em seguida os remetterá ao governo com <eol/>informação relativa ás deliberações provisorias que tiver <eol/>por illegaes ou contrarias ao interesse publico.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_17__para_2" GUID="6C4A292C-6FF9-440B-9B60-2A4D30AEB54D"><num>§ 2.º</num>
+                  <content><p>O mesmo magistrado dará ao ministerio publico <eol/>as instrucções convenientes para reclamar contra as <eol breakAt="4" breakWith="-"/>deliberações definitivas, que tiver por illegaes.</p></content>
+                </paragraph>
+              </article>
+            </chapter>
+            <chapter eId="att_1__chp_II" GUID="AC17A33D-4E5F-4856-BCDB-6C93FF4B843A"><num>CAPITULO II</num><heading>Competencia e attribuições</heading>
+              <article eId="att_1__art_18" GUID="412280E0-AEDF-4C1F-9B6E-DDCBE1026A4A"><num>Art. 18.º</num>
+                <content><p>A junta geral do districto tem a seu cargo <eol/>administrar os bens e interesses peculiares do districto, <eol breakAt="3" breakWith="-"/>promover e realisar todos os seus melhoramentos moraes e <eol/>materiaes, que por disposição de lei não estejam <eol breakAt="8" breakWith="-"/>especialmente incumbidos a outras corporações ou auctoridades.</p></content>
+              </article>
+              <article eId="att_1__art_19" GUID="C3D702E1-EF38-433F-9F81-86E91C3E2657"><num>Art. 19.º</num>
+                <content><p>Á junta geral pertencem tambem attribuições, <eol/>tanto deliberativas como consultivas, na execução de <eol breakAt="3" breakWith="-"/>serviços do interesse geral do estado, em todos os casos <eol breakAt="2" breakWith="-"/>declarados nas leis.</p></content>
+              </article>
+              <article eId="att_1__art_20" GUID="4F2968D9-DF60-44D4-959B-9E8D7219BCE0"><num>Art. 20.º</num>
+                <intro><p>Pertencem igualmente á junta geral <eol breakAt="8" breakWith="-"/>attribuições consultivas em todos os assumptos sobre que for <eol breakAt="2" breakWith="-"/>ouvida pelo governo ou pelo governador civil.</p></intro>
+                <paragraph eId="att_1__art_20__para_unico" GUID="92858F24-1825-46B0-8E9E-F5E9D8C52D76"><num>§ unico.</num>
+                  <content><p>Póde, todavia, a junta geral emittir votos <eol breakAt="3" breakWith="-"/>consultivos, de sua iniciativa, e leval-os á presença dos <eol breakAt="4" breakWith="-"/>poderes superiores do estado, mas sómente nos assumptos da <eol/>sua competencia.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_21" GUID="4957A3D0-B30E-4BB8-A462-2AF68CB0EF60"><num>Art. 21.º</num>
+                <content><p>Á junta geral pertencem, finalmente, <eol breakAt="8" breakWith="-"/>attribuições de superintendencia na administração municipal, nos <eol/>termos d'este decreto.</p></content>
+              </article>
+              <article eId="att_1__art_22" GUID="0B7783A5-8690-44E6-9A76-70D67E1960FC"><num>Art. 22.º</num>
+                <content><p>As deliberações da junta geral no exercicio <eol/>das suas attribuições administrativas são de duas classes: <eol/>umas definitivas, as quaes podem desde logo executar-se; <eol/>e outras provisorias, as quaes só podem executar-se depois <eol/>de se tornarem definitivas, nos termos d'este decreto.</p></content>
+              </article>
+              <article eId="att_1__art_23" GUID="66DBFDFF-C924-4435-8B25-408047D116F0"><num>Art. 23.º</num>
+                <intro><p>A junta geral delibera:</p></intro>
+                <list eId="att_1__art_23__list_1" GUID="CFF7A5FD-F7CC-4AFB-BD17-069D8A8B5575">
+                  <point eId="att_1__art_23__list_1__point_1" GUID="435EA1BB-EF9E-418D-A795-33449F6412EF"><num>1.º</num><content><p>Sobre administração dos bens e estabelecimentos <eol/>districtaes e sua applicação;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_2" GUID="C83AFEB2-6EFB-4E9B-83EA-B17E830CDB8B"><num>2.º</num><content><p>Sobre acceitação de heranças, legados e doações <eol breakAt="3" breakWith="-"/>feitas ao districto ou a estabelecimentos districtaes;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_3" GUID="D49B13AC-0908-4197-B560-076886E4A4F7"><num>3.º</num><content><p>Sobre acquisição de bens para os serviços do <eol breakAt="6" breakWith="-"/>districto e alienação dos que forem dispensaveis d'esses <eol breakAt="5" breakWith="-"/>serviços;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_4" GUID="6F568AED-FA8C-4D59-9D96-486DB036AAAE"><num>4.º</num><content><p>Sobre administração dos expostos e menores <eol breakAt="5" breakWith="-"/>desvalidos ou abandonados desde sete até dezoito annos de idade, <eol/>e sobre fundação ou subsidios para fundação de asylos ou <eol/>escolas districtaes de artes e officios, onde se lhes ministre <eol/>a conveniente educação;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_5" GUID="D67C6F8E-6E93-47D1-BF59-5CF0E8CBD993"><num>5.º</num><content><p>Sobre obras de construcção, reparação ou <eol breakAt="8" breakWith="-"/>conservação de propriedades districtaes;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_6" GUID="F3072288-08DA-47F1-84CD-0DCB396E9EB4"><num>6.º</num><content><p>Sobre subsidios a estabelecimentos de beneficencia, <eol/>instrucção e educação, de que não seja administradora, <eol/>mas que sejam de utilidade para o districto ou para uma <eol/>parte importante d'elle;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_7" GUID="532C5DBF-CCD0-4C0E-8B15-DCCFC3D22CD4"><num>7.º</num><content><p>Sobre inspecção da viação municipal, approvando, <eol/>com parecer da repartição technica, os planos e projectos <eol/>das estradas, designando as obras que têem de ser feitas <eol/>annualmente nas de 1.ª classe, e fixando as quotas com <eol/>que os concelhos devem concorrer para as de interesse <eol/>commum, tudo na conformidade das leis e regulamentos <eol/>especiaes;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_8" GUID="FAC16D67-7DD5-4FFA-ADD7-A68B241E4820"><num>8.º</num><content><p>Sobre concessão de subsidios aos municipios;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_9" GUID="0A9C00A0-530E-4360-8E6F-D23D0C7109C5"><num>9.º</num><content><p>Sobre nomeação, suspensão, demissão e <eol breakAt="8" breakWith="-"/>licenciamento dos empregados da administração districtal e dos <eol/>que forem pagos, no todo ou na maior parte, pelo cofre <eol/>do districto, quando por lei não esteja determinada fórma <eol/>especial de nomeação, suspensão ou demissão;<eop number="312a"/></p></content></point>
+                  <point eId="att_1__art_23__list_1__point_10" GUID="70836146-E04F-495C-9411-66531CCF710F"><num>10.º</num><content><p>Sobre instauração ou defeza de pleitos, e sobre <eol breakAt="2" breakWith="-"/>desistencias, confissões e transacções ácerca d'elles;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_11" GUID="A0AA0468-2028-45D9-BF65-6B5C6B4000C4"><num>11.º</num><content><p>Sobre contratos para a execução de obras, <eol breakAt="5" breakWith="-"/>serviços e fornecimentos de interesse do districto;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_12" GUID="90CF8AB1-236B-41A7-84AA-B6A79CCA755E"><num>12.º</num><content><p>Sobre arrendamentos e suas condições;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_13" GUID="ADBAD380-1884-433F-99C1-F684AE24AA37"><num>13.º</num><content><p>Sobre regulamentos para o regimen dos <eol breakAt="8" breakWith="-"/>estabelecimentos e serviços pertencentes á administração <eol breakAt="6" breakWith="-"/>districtal;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_14" GUID="538D947C-1B74-4801-AED6-45F4DBAF3CFD"><num>14.º</num><content><p>Sobre regulamentos para a fruição dos bens e <eol breakAt="3" breakWith="-"/>pastos de logradouro commum dos povos pertencentes a mais <eol/>de um concelho;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_15" GUID="C67B1704-62BC-47B5-802A-E194A248FFC4"><num>15.º</num><content><p>Sobre nomeação e exoneração dos vogaes da <eol breakAt="3" breakWith="-"/>commissão districtal;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_16" GUID="4E3AC7DB-3B18-4D26-924F-3800C4752B8D"><num>16.º</num><content><p>Sobre a conveniencia de ser decretada a utilidade <eol/>publica ou a urgencia das expropriações, assim como <eol breakAt="2" breakWith="-"/>sobre a realisação das que estiverem declaradas por lei ou <eol/>decretadas pelo governo;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_17" GUID="F7926F09-AD28-494A-8F9D-17FF0F36034A"><num>17.º</num><content><p>Sobre emprestimos, sua dotação e encargos;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_18" GUID="C7CC3091-378D-452C-BDB4-41FB2C18F7D1"><num>18.º</num><content><p>Sobre nomeação de vereadores, quando a eleição <eol/>não dê resultado;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_19" GUID="6876E796-BA43-45E2-A7A8-E3A8084F9EC0"><num>19.º</num><content><p>Sobre toda a viação, que não esteja a cargo das <eol/>camaras pelas disposições d'este decreto ou por lei <eol breakAt="4" breakWith="-"/>especial;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_20" GUID="B527799C-8746-4E26-88AF-7B2FCD46F789"><num>20.º</num><content><p>Sobre construcção, reparação e policia dos portos <eol/>de pequena cabotagem, e dos pharoes, excepto os dos <eol breakAt="3" breakWith="-"/>portos artificiaes;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_21" GUID="96899074-0619-47B1-A392-ECC569A3ADD9"><num>21.º</num><content><p>Sobre hospitalisação de alienados;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_22" GUID="769189A1-7741-45DB-BD0A-9E37314131E2"><num>22.º</num><content><p>Sobre beneficencia publica, que não esteja a cargo <eol/>de outra corporação;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_23" GUID="8F09440A-642E-4ED0-8ADD-33DB61F4315D"><num>23.º</num><content><p>Sobre soccorros a naufragos;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_24" GUID="D831B3CB-73B7-438F-ABA9-B7CF56F8A232"><num>24.º</num><content><p>Sobre serviços agronomicos e pecuarios;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_25" GUID="60118F9A-4C90-4A16-8C5A-C98970A030E0"><num>25.º</num><content><p>Sobre aguas minero-medicinaes, publicas e <eol breakAt="3" breakWith="-"/>communs, estabelecimentos balneares, sua construcção, <eol breakAt="4" breakWith="-"/>reparação e conservação; hygiene, alinhamentos, prospectos <eol/>de edificios e aformoseamento dos povoados, onde os haja;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_26" GUID="B9B099EE-2C6C-4214-84A1-A30C4CEA2C05"><num>26.º</num><content><p>Sobre dotação dos serviços e fixação das despezas <eol/>da administração districtal;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_27" GUID="2D293CFF-1704-4DE8-9A73-7F679B4CBBFA"><num>27.º</num><content><p>Sobre lançamento de impostos e sobre orçamentos <eol/>districtaes;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_28" GUID="E31F1B1B-68E3-43D2-A624-39D0BD7657EC"><num>28.º</num><content><p>Sobre creação de estabelecimentos e institutos de <eol/>utilidade para o districto, sua dotação e extincção;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_29" GUID="6BC960E2-8AED-4117-AFA3-D6D906D05D2E"><num>29.º</num><content><p>Sobre aposentações, e deducções a ellas destinadas <eol/>nos vencimentos dos respectivos empregados;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_30" GUID="0103CB11-AB24-4F41-BF67-40CC5AFE602B"><num>30.º</num><content><p>Sobre accordos com outras corporações <eol breakAt="7" breakWith="-"/>administrativas para a realisação de melhoramentos de interesse <eol/>commum;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_31" GUID="F92B59F4-6A8F-4085-8500-1CCC0B2D6A2F"><num>31.º</num><content><p>Sobre regulamentos de policia proprios de <eol breakAt="5" breakWith="-"/>posturas municipaes, mas que, ao seu parecer, convenha serem <eol/>uniformes em todo o districto, ouvidas previamente as <eol breakAt="2" breakWith="-"/>camaras municipaes;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_32" GUID="95CA7428-FE00-4FB1-BDEC-DAD5BE035C68"><num>32.º</num><content><p>Sobre regulamentos dos serviços a seu cargo, não <eol/>havendo regulamento de administração geral, que lhes seja <eol/>applicavel;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_33" GUID="0FD3BD48-A86E-4622-A9E4-7FABFEE46BC0"><num>33.º</num><content><p>Sobre concessão de servidões em bens districtaes, <eol/>as quaes conservarão sempre a natureza de precarias;</p></content></point>
+                  <point eId="att_1__art_23__list_1__point_34" GUID="86F36A69-A41C-44D8-8175-661FBC221948"><num>34.º</num><content><p>Sobre todos os assumptos e serviços de <eol breakAt="7" breakWith="-"/>administração districtal, que não pertençam ao estado ou a <eol breakAt="4" breakWith="-"/>qualquer corporação.</p></content></point>
+                </list>
+              </article>
+              <article eId="att_1__art_24" GUID="05B75102-200C-47A3-B3EC-EA8C0013CBF8"><num>Art. 24.º</num>
+                <intro><p>As deliberações da junta geral são desde <eol/>logo executorias, salvo quando recáem:</p></intro>
+                <list eId="att_1__art_24__list_1" GUID="EF7442C8-9E03-49F7-B880-E223D1DFC1CD">
+                  <point eId="att_1__art_24__list_1__point_1" GUID="FFE68E5E-4131-487D-8799-8B8A4143D0CF"><num>1.º</num><content><p>Sobre organisação ou dotação de serviços e fixação <eol/>de despezas;</p></content></point>
+                  <point eId="att_1__art_24__list_1__point_2" GUID="83F1336E-9F9D-486F-A9FC-2E43B327801D"><num>2.º</num><content><p>Sobre emprestimos;</p></content></point>
+                  <point eId="att_1__art_24__list_1__point_3" GUID="3E7F8BEF-A35D-4654-88FB-8C662E46DFF8"><num>3.º</num><content><p>Sobre orçamentos;</p></content></point>
+                  <point eId="att_1__art_24__list_1__point_4" GUID="35E686CD-2F16-4939-B6A7-69F1ADC60C0D"><num>4.º</num><content><p>Sobre impostos ou quaesquer contribuições;</p></content></point>
+                  <point eId="att_1__art_24__list_1__point_5" GUID="005A2043-2427-4B72-938B-3CEB4ED172D7"><num>5.º</num><content><p>Sobre acquisição ou alienação de bens <eol breakAt="9" breakWith="-"/>immobiliarios, titulos, acções, inscripções e em geral de quaesquer <eol/>papeis de credito;</p></content></point>
+                  <point eId="att_1__art_24__list_1__point_6" GUID="BA0EA036-7ECE-4504-8988-061333BC78AA"><num>6.º</num><content><p>Sobre transacção ou desistencia de pleitos, a qual <eol/>não póde ser auctorisada antes da producção da prova, <eol/>nem depois de interposto recurso da sentença;</p></content></point>
+                  <point eId="att_1__art_24__list_1__point_7" GUID="61F4540E-AB02-4FA1-A0F2-2F21F44514B2"><num>7.º</num><content><p>Sobre contratos de execução de obras ou serviços, <eop number="312b"/>de fornecimentos e de arrendamento, que devem durar <eol/>mais de tres annos.</p></content></point>
+                </list>
+              </article>
+              <article eId="att_1__art_25" GUID="18321209-1ADF-40BC-AFB0-12F7FCD56054"><num>Art. 25.º</num>
+                <content><p>Ás deliberações enumeradas no artigo <eol breakAt="4" breakWith="-"/>anterior é applicavel o disposto no codigo administrativo para <eol/>as deliberações da mesma natureza das camaras <eol breakAt="6" breakWith="-"/>municipaes dos concelhos de primeira ordem.</p></content>
+              </article>
+              <article eId="att_1__art_26" GUID="7173F7F0-A7B6-4375-9713-0E0263921B10"><num>Art. 26.º</num>
+                <intro><p>Tanto as deliberações definitivas, como as <eol breakAt="3" breakWith="-"/>provisorias depois de tornadas definitivas, podem ser <eol breakAt="6" breakWith="-"/>revogadas pelos meios contenciosos, nos casos de nullidade <eol breakAt="3" breakWith="-"/>enumerados no artigo 31.º do codigo administrativo, e nos de <eol/>offensa de direitos fundados nas leis ou regulamentos de <eol/>administração publica.</p></intro>
+                <paragraph eId="att_1__art_26__para_unico" GUID="295B7485-2B0C-47FA-BB6F-87D0090DE0D4"><num>§ unico.</num>
+                  <content><p>São competentes para usar d'estes meios o <eol breakAt="2" breakWith="-"/>ministerio publico e as pessoas cujos direitos foram <eol breakAt="7" breakWith="-"/>offendidos com as deliberações.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_27" GUID="81278D94-F2FE-4214-9576-6B4B9D73FB93"><num>Art. 27.º</num>
+                <intro><p>Haverá em cada districto um auditor <eol breakAt="4" breakWith="-"/>administrativo, nomeado nos mesmos termos que os do <eol breakAt="5" breakWith="-"/>continente do reino, pertencendo-lhe não só as attribuições que <eol/>a este magistrado confere o codigo administrativo, mas <eol/>tambem as contenciosas e as consultivas, que pelo mesmo <eol/>codigo competem ás commisssões districtaes.</p></intro>
+                <paragraph eId="att_1__art_27__para_unico" GUID="8FF27400-D3B3-4E1F-BAD3-72648189EEFC"><num>§ unico.</num>
+                  <content><p>O auditor terá um secretario nos mesmos <eol breakAt="3" breakWith="-"/>termos e com as mesmas obrigações, que os do continente do <eol/>reino.</p></content>
+                </paragraph>
+              </article>
+            </chapter>
+            <chapter eId="att_1__chp_III" GUID="7C248D44-6B30-489E-90B8-75E97B1AD9DF"><num>CAPITULO III</num><heading>Fazenda e contabilidade districtal</heading>
+              <section eId="att_1__chp_III__sec_I" GUID="5A557E81-EB59-4CC0-8F17-4ADD92328DD4"><num>SECÇÃO I</num><heading>Receita e despeza</heading>
+                <article eId="att_1__art_28" GUID="B6C95A8B-64B8-4A70-9208-38B44B8063CD"><num>Art. 28.º</num>
+                  <intro><p>A receita do districto é ordinaria ou <eol breakAt="5" breakWith="-"/>extraordinaria.</p></intro>
+                  <paragraph eId="att_1__art_28__para_1" GUID="1734F25F-D3BA-4BAE-A107-4F2912D858DC"><num>§ 1.º</num>
+                    <intro><p>Constituem receita ordinaria:</p></intro>
+                    <list eId="att_1__art_28__para_1__list_1" GUID="C7447364-284F-4C0A-A5F5-C912CC9F1CD5">
+                      <point eId="att_1__art_28__para_1__list_1__point_1" GUID="03B8F594-292A-4007-BCDF-12ED1FD54A2B"><num>1.º</num><content><p>O rendimento dos bens proprios;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_2" GUID="77625F0F-B52C-4BBC-91D7-A5CF037281E9"><num>2.º</num><content><p>Os juros de papeis de credito e fundos consolidados;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_3" GUID="71B82F0D-E0C6-4065-B570-3DA1EDDB2664"><num>3.º</num><content><p>Os dividendos de acções de bancos e companhias;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_4" GUID="93F11ABB-27D9-4F2B-91FB-FC1C09124C58"><num>4.º</num><content><p>O rendimento dos estabelecimentos districtaes;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_5" GUID="F6223F19-F991-4E91-89BC-902622ECFD39"><num>5.º</num><content><p>O producto dos impostos mencionados no artigo <ref href="#att_1__art_29">29.º</ref>;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_6" GUID="08D74D8C-1F22-4513-8FD6-6E1A159A156E"><num>6.º</num><content><p>O producto de multas impostas nos regulamentos de <eol/>policia districtal, ou de outras quaesquer applicadas por lei <eol/>para o cofre do districto;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_7" GUID="5EBEB86D-21F0-48B5-A4F0-21605787E4C2"><num>7.º</num><content><p>O producto, liquido das despezas de cobrança, das <eol/>contribuições directas arrecadadas no districto, predial, <eol breakAt="2" breakWith="-"/>industrial, de renda de casas e sumptuaria, e seus <eol breakAt="7" breakWith="-"/>addicionaes, ou das que as substituirem;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_8" GUID="45C08D23-BFA6-494F-9CC6-70C8184BFFE9"><num>8.º</num><content><p>A parte do producto liquido, que for respectiva ao <eol/>districto, nos impostos creados para hospitalisação de <eol breakAt="4" breakWith="-"/>alienados, e soccorros a naufragos;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_9" GUID="5B5ABC00-9106-4D05-A7A2-EE2FDDD4690E"><num>9.º</num><content><p>Os rendimentos de todos os serviços, que ficam <eol breakAt="3" breakWith="-"/>pertencendo á junta geral;</p></content></point>
+                      <point eId="att_1__art_28__para_1__list_1__point_10" GUID="C7CFCA6C-BF45-4812-B28F-2AC6698D52C9"><num>10.º</num><content><p>Os emolumentos auctorisados pela respectiva <eol breakAt="2" breakWith="-"/>tabella.</p></content></point>
+                    </list>
+                  </paragraph>
+                  <paragraph eId="att_1__art_28__para_2" GUID="B5641520-790B-41C9-8380-04312672478F"><num>§ 2.º</num>
+                    <intro><p>Constituem receita extraordinaria:</p></intro>
+                    <list eId="att_1__art_28__para_2__list_1" GUID="BE63CDAD-9796-46B3-ADD2-248C132CFEF6">
+                      <point eId="att_1__art_28__para_2__list_1__point_1" GUID="907EE062-3FCD-4068-8C6B-098707AB9C90"><num>1.º</num><content><p>As heranças, donativos, legados e doações;</p></content></point>
+                      <point eId="att_1__art_28__para_2__list_1__point_2" GUID="A3CB2541-21EA-4B0A-8C88-A1D86CAB962D"><num>2.º</num><content><p>O producto dos emprestimos;</p></content></point>
+                      <point eId="att_1__art_28__para_2__list_1__point_3" GUID="10A940CD-E200-4FBA-BC06-4437C79F47ED"><num>3.º</num><content><p>O producto da alienação de bens;</p></content></point>
+                      <point eId="att_1__art_28__para_2__list_1__point_4" GUID="A67DB2B2-E559-426B-A080-EAFD795E3409"><num>4.º</num><content><p>Outros quaesquer rendimentos incertos e <eol breakAt="4" breakWith="-"/>eventuaes.</p></content></point>
+                    </list>
+                  </paragraph>
+                  <paragraph eId="att_1__art_28__para_3" GUID="9331674E-684C-4C81-B062-5BC28D10A829"><num>§ 3.º</num>
+                    <content><p>As multas, a que se refere o n.º 6.º do § 1.º, <eol breakAt="2" breakWith="-"/>podem ser pagas voluntariamente, e n'este caso serão <eol breakAt="2" breakWith="-"/>cobradas pelo maximo estabelecido nos regulamentos <eol breakAt="4" breakWith="-"/>administrativos. No caso de reincidencia serão sempre pagas <eol/>em dobro.</p></content>
+                  </paragraph>
+                  <paragraph eId="att_1__art_28__para_4" GUID="7C8B87E5-6A8C-4A63-BD14-E8890B184F09"><num>§ 4.º</num>
+                    <content><p>Das receitas de que tratam os n.ºs 7.º e 8.º do <eol/>§ 1.º se deduzirá a especial da instrucção primaria nos <eol/>termos estabelecidos no codigo administrativo para a das <eol/>camaras municipaes.</p></content>
+                  </paragraph>
+                </article>
+                <article eId="att_1__art_29" GUID="0B157284-BAB8-4160-A45A-8433FCC90D7A"><num>Art. 29.º</num>
+                  <content><p>Os impostos districtaes consistem em uma <eol/>percentagem addicional ás contribuições directas do <eol breakAt="4" breakWith="-"/>estado, predial, industrial, de renda de casas e sumptuaria, ou <eol/>áquellas que as substituirem, não podendo exceder 15 por <eop number="313a"/>cento e incluindo-se n'este maximo o addicional cobrado <eol/>segundo o artigo 10.º do decreto de 6 de agosto de 1892.</p></content>
+                </article>
+                <article eId="att_1__art_30" GUID="0BAC5DD0-2352-40DE-AA75-882C3B90F25F"><num>Art. 30.º</num>
+                  <content><p>Os impostos districtaes cobram-se <eol breakAt="8" breakWith="-"/>cumulativamente com os do estado, que se arrecadarem na <eol breakAt="3" breakWith="-"/>primeira epocha posterior áquella em que forem executorias <eol/>as deliberações das juntas, que os tiverem votado.</p></content>
+                </article>
+                <article eId="att_1__art_31" GUID="F17C53D1-91A0-473B-8C99-FD0DC9D78D89"><num>Art. 31.º</num>
+                  <content><p>Quando as collectas totaes dos impostos <eol breakAt="2" breakWith="-"/>accumulados forem por qualquer motivo incobraveis, no todo <eol/>ou em parte, as falhas da cobrança pesarão <eol breakAt="12" breakWith="-"/>proporcionalmente nas collectas do estado e nas districtaes.</p></content>
+                </article>
+                <article eId="att_1__art_32" GUID="F73A3789-2107-470D-AE6D-32960640ACCF"><num>Art. 32.º</num>
+                  <intro><p>As despezas do districto são obrigatorias ou <eol/>facultativas.</p></intro>
+                  <paragraph eId="att_1__art_32__para_1" GUID="A44A1B1E-5276-4B6E-BD99-208978D9C668"><num>§ 1.º</num>
+                    <intro><p>São obrigatorias:</p></intro>
+                    <list eId="att_1__art_32__para_1__list_1" GUID="685BD5A9-A2F0-45E8-9EAB-4FDC8DBCE72C">
+                      <point eId="att_1__art_32__para_1__list_1__point_1" GUID="C907F7D2-1393-4184-9A5E-B86E15E97C74"><num>1.º</num><content><p>As dos estabelecimentos, institutos e serviços <eol breakAt="3" breakWith="-"/>districtaes;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_2" GUID="968172D4-8D1E-420E-876B-DD2BA03347B3"><num>2.º</num><content><p>As dos vencimentos dos funccionarios e empregados <eol/>pagos pelo cofre districtal;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_3" GUID="B1400847-C22F-4DAA-AB17-C756787B0868"><num>3.º</num><content><p>As das aposentações;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_4" GUID="7D04CB37-1D2E-45F6-B474-483F66EB591A"><num>4.º</num><content><p>As da viação;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_5" GUID="0144BA19-47ED-48C3-B268-99CB0CC8D03E"><num>5.º</num><content><p>As de soccorros a naufragos;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_6" GUID="186EF43A-E805-4B83-BD62-52C72884E9B6"><num>6.º</num><content><p>As da hospitalisação de alienados;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_7" GUID="084DC91D-1E16-449F-AECE-149A1143DA76"><num>7.º</num><content><p>As dos serviços pecuarios e agricolas;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_8" GUID="B3274E50-53C0-4802-9817-E0E7E637B1D2"><num>8.º</num><content><p>As da construcção, reparação e policia dos portos <eol/>de pequena cabotagem e dos pharoes, excepto os dos <eol breakAt="3" breakWith="-"/>portos artificiaes;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_10" GUID="CCAA4358-83E0-4EA3-BC3B-33D10654DAFD"><num>10.º</num><content><p>As da instrucção primaria, nos termos das leis <eol breakAt="4" breakWith="-"/>especiaes;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_11" GUID="A1399F0E-07E2-499E-BA4D-DC7A23467EC1"><num>11.º</num><content><p>As da reparação e conservação ou arrendamento <eol/>dos edificios dos governos civis e mais estabelecimentos <eol/>districtaes, e acquisição da mobilia que lhes for <eol breakAt="7" breakWith="-"/>necessaria;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_12" GUID="6418DDE1-CC7E-4772-BBA6-1896C047D50D"><num>12.º</num><content><p>As dos expostos e menores desvalidos ou <eol breakAt="8" breakWith="-"/>abandonados desde a idade de sete a dezoito annos;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_13" GUID="206F1339-7B0E-4CA3-AD96-CF9BD3830637"><num>13.º</num><content><p>Os impostos, pensões e encargos a que estiverem <eol/>sujeitas as propriedades ou rendimentos districtaes;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_14" GUID="7BE188C1-45DE-4322-BFFB-B56940349431"><num>14.º</num><content><p>As da amortisação dos emprestimos e as <eol breakAt="8" breakWith="-"/>resultantes da execução de outros contratos legalmente <eol breakAt="7" breakWith="-"/>celebrados;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_15" GUID="467F50EE-3725-44CC-B811-D62B1336ADF2"><num>15.º</num><content><p>As do pagamento das dividas exigiveis;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_16" GUID="15295C60-8681-4748-8F28-1AB51BDF080E"><num>16.º</num><content><p>As dos litigios do districto;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_17" GUID="F6BB3FB3-E6DD-46DF-A8BC-D987BF0743B8"><num>17.º</num><content><p>As do expediente da junta geral;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_18" GUID="A5FDB8C0-4583-46A8-B239-02BFA06D366B"><num>18.º</num><content><p>As da publicação dos relatorios da commissão <eol breakAt="3" breakWith="-"/>districtal e a da assignatura da folha official do governo;</p></content></point>
+                      <point eId="att_1__art_32__para_1__list_1__point_19" GUID="CF0DC189-C5B0-4A38-A2D4-1C6EE70A7AC1"><num>19.º</num><content><p>Outras quaesquer que por lei forem postas a cargo <eol/>do cofre districtal.</p></content></point>
+                    </list>
+                  </paragraph>
+                  <paragraph eId="att_1__art_32__para_2" GUID="D9E83EB6-0F47-4820-8F5B-F05D707E889A"><num>§ 2.º</num>
+                    <content><p>São falcultativas todas as despezas não <eol breakAt="5" breakWith="-"/>enumeradas no artigo antecedente, que forem de utilidade para <eol/>o districto e consequentes do exercicio de attribuições <eol breakAt="2" breakWith="-"/>legaes da junta geral.</p></content>
+                  </paragraph>
+                </article>
+              </section>
+              <section eId="att_1__chp_III__sec_II" GUID="BD549D21-CC78-4FE1-8512-2C96FFF03C6A"><num>SECÇÃO II</num><heading>Orçamento districtal</heading>
+                <article eId="att_1__art_33" GUID="85385CF3-C520-4F83-B878-CFC4090616C9"><num>Art. 33.º</num>
+                  <content><p>São applicaveis aos orçamentos da junta <eol breakAt="2" breakWith="-"/>geral as disposições do codigo administrativo ácerca dos <eol breakAt="2" breakWith="-"/>orçamentos municipaes dos concelhos de 1.ª ordem.</p></content>
+                </article>
+              </section>
+              <section eId="att_1__chp_III__sec_III" GUID="B6CF934D-6182-43B6-8FCE-2D59FDE423F9"><num>SECÇÃO III</num><heading>Contabilidade districtal</heading>
+                <article eId="att_1__art_34" GUID="2BB116A7-C221-415B-B909-DD4749C96E7E"><num>Art. 34.º</num>
+                  <intro><p>A agencia do banco de Portugal no districto <eol/>servirá de thesoureiro da junta geral, e n'esta qualidade <eol/>tem a seu cargo:</p></intro>
+                  <list eId="att_1__art_34__list_1" GUID="581F147F-1DB7-445F-9893-493DEB3320B8">
+                    <point eId="att_1__art_34__list_1__point_1" GUID="1C4B8A35-8036-47D4-81B3-30B7F3F5A7F8"><num>1.º</num><content><p>Arrecadar toda a receita auctorisada pelos <eol breakAt="7" breakWith="-"/>orçamentos districtaes;</p></content></point>
+                    <point eId="att_1__art_34__list_1__point_2" GUID="1B4B922F-6E57-4A75-82CA-172B16DEEB16"><num>2.º</num><content><p>Satisfazer a todos os pagamentos regularmente <eol breakAt="2" breakWith="-"/>ordenados pela commissão districtal;</p></content></point>
+                    <point eId="att_1__art_34__list_1__point_3" GUID="2FAF5784-5B13-4EAF-9AA5-DEC788C0EEE3"><num>3.º</num><content><p>Remetter á commissão districtal semanalmente um <eol/>balanço do cofre.</p></content></point>
+                  </list>
+                </article>
+                <article eId="att_1__art_35" GUID="29C820DA-A7AF-4C0D-BA29-8C1BE345A381"><num>Art. 35.º</num>
+                  <content><p>É applicavel á contabilidade districtal o <eol breakAt="3" breakWith="-"/>disposto no codigo administrativo ácerca da contabilidade <eol/>das camaras municipaes dos concelhos de 1.ª ordem.<eop number="313b"/></p></content>
+                </article>
+                <article eId="att_1__art_36" GUID="C7854CF3-8D25-495B-9886-9067C69D2A4B"><num>Art. 36.º</num>
+                  <intro><p>As contas serão prestadas pela commissão <eol/>districtal em exercicio, em harmonia com as deliberações <eol/>da junta geral.</p></intro>
+                  <paragraph eId="att_1__art_36__para_unico" GUID="C54B9530-571F-46E8-8B86-03036C00B599"><num>§ unico.</num>
+                    <content><p>Se as contas comprehenderem periodos de <eol breakAt="2" breakWith="-"/>gerencias pertencentes á junta anterior, e n'ellas se notarem <eol/>irregularidades, serão os responsaveis convidados pela <eol breakAt="3" breakWith="-"/>commissão districtal em exercicio a examinar as contas dos <eol/>periodos que lhes digam respeito a allegarem, querendo, <eol/>no praso que lhes for fixado, o que se lhes offereça ácerca <eol/>das irregularidades notadas; e com as explicações que <eol breakAt="2" breakWith="-"/>derem subirá o processo ao tribunal de contas.</p></content>
+                  </paragraph>
+                </article>
+                <article eId="att_1__art_37" GUID="8E7754E0-B139-4809-A254-FD61C5561D49"><num>Art. 37.º</num>
+                  <intro><p>As sentenças do poder judicial, que <eol breakAt="8" breakWith="-"/>condemnarem as juntas geraes ao pagamento de quantias a dinheiro, <eol/>não poderão ser executadas contra as mesmas juntas nos <eol/>termos do codigo do processo civil, mas sim pela fórma <eol/>prescripta nos paragraphos seguintes:</p></intro>
+                  <paragraph eId="att_1__art_37__para_1" GUID="9C30B66B-CB5E-4E11-B161-BD1B3B9C1AD0"><num>§ 1.º</num>
+                    <content><p>Se as quantias forem liquidas e os orçamentos <eol breakAt="2" breakWith="-"/>estiverem votados, e ainda não despendidas no todo ou em <eol/>parte as verbas para o pagamento das dividas exigiveis, os <eol/>interessados promoverão o seu embolso até o total das <eol breakAt="3" breakWith="-"/>mesmas verbas pelos meios auctorisados no § 3.º do artigo <ref href="#att_1__art_47">47.º</ref>, <eol/>no caso de recusa da commissão districtal.</p></content>
+                  </paragraph>
+                  <paragraph eId="att_1__art_37__para_2" GUID="021513D8-C836-4F82-92DA-2E11E75B660D"><num>§ 2.º</num>
+                    <content><p>Se a junta não estiver habilitada ao pagamento <eol/>pelas auctorisações orçamentaes, os interessados, depois de <eol/>liquidadas as dividas pela fórma commum, requererão á <eol/>junta que em orçamento as inclua. Se a junta não <eol breakAt="5" breakWith="-"/>attender os interessados poderão estes reclamar perante o <eol breakAt="2" breakWith="-"/>governo o supprimento da omissão.</p></content>
+                  </paragraph>
+                  <paragraph eId="att_1__art_37__para_3" GUID="A90A3669-B915-45D2-A180-8660C5EB40D1"><num>§ 3.º</num>
+                    <content><p>Se as dividas forem avultadas, em relação ás <eol breakAt="3" breakWith="-"/>posses do districto e aos outros encargos que tenha de <eol breakAt="5" breakWith="-"/>satisfazer, o governo terá a faculdade, quando delibere pela <eol/>junta ou esta o solicite, e com audiencia dos credores, de <eol/>auctorisar o pagamento em dois annos civis, vencendo <eol/>n'este caso as dividas o juro de 5 por cento, a contar da <eol/>data da deliberação do governo.</p></content>
+                  </paragraph>
+                  <paragraph eId="att_1__art_37__para_4" GUID="71B68D15-7E1D-4C23-A7C6-93E6657BF50D"><num>§ 4.º</num>
+                    <content><p>Se o estado for credor, ao governo pertence <eol breakAt="2" breakWith="-"/>auctorisar o pagamento em prestações, podendo permittil-o <eol/>em mais de dois annos e sem vencimento de juro da móra.</p></content>
+                  </paragraph>
+                </article>
+              </section>
+            </chapter>
+            <chapter eId="att_1__chp_IV" GUID="D84B8286-5BF7-47E7-BA7D-E2B3ED3542F8"><num>CAPITULO IV</num><heading>Commissão districtal, sua competencia e attribuições</heading>
+              <article eId="att_1__art_38" GUID="BA597905-6FB8-40AA-85B1-8338B887A86E"><num>Art. 38.º</num>
+                <intro><p>A commissão districtal compõe-se do <eol breakAt="5" breakWith="-"/>presidente da junta geral e de quatro procuradores, nomeados <eol/>pela junta geral na sua primeira sessão depois de eleita.</p></intro>
+                <paragraph eId="att_1__art_38__para_1" GUID="56D37912-C06A-44CD-8137-A47A7770AB09"><num>§ 1.º</num>
+                  <content><p>Na mesma sessão nomeará a junta geral quatro <eol/>procuradores substitutos, os quaes, pela ordem da <eol breakAt="5" breakWith="-"/>nomeação, serão chamados a supprir as faltas e impedimentos <eol/>dos effectivos.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_38__para_2" GUID="E445A710-08E9-4DF6-8A30-94F0B1311DFB"><num>§ 2.º</num>
+                  <content><p>Nas faltas e impedimentos dos substitutos serão <eol/>chamados a servir os procuradores que residirem na <eol breakAt="4" breakWith="-"/>capital do districto, começando pelos mais velhos.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_39" GUID="7CD501A4-CDBC-4EF2-92E1-FA3ADF8AA330"><num>Art. 39.º</num>
+                <content><p>A junta geral designará de entre os <eol breakAt="3" breakWith="-"/>membros da commissão districtal os que hão de servir de <eol breakAt="4" breakWith="-"/>vicepresidente e de secretario, servindo, na falta d'esta <eol breakAt="4" breakWith="-"/>designação e nos casos de impedimento, de vice-presidente o <eol/>mais velho e de secretario o mais novo dos nomeados.</p></content>
+              </article>
+              <article eId="att_1__art_40" GUID="ED44D342-75A2-4AE5-B176-B9BB08B78991"><num>Art. 40.º</num>
+                <intro><p>A junta geral, sempre que o julgar <eol breakAt="5" breakWith="-"/>conveniente, póde substituir, tanto nas sessões ordinarias como <eol/>nas extraordinarias, os vogaes da commissão districtal.</p></intro>
+                <paragraph eId="att_1__art_40__para_unico" GUID="DDFF89E2-9D3E-4479-B8A2-929BB6E3CB73"><num>§ unico.</num>
+                  <content><p>Esta commissão funcciona permanentemente e <eol/>reune-se no edificio do governo civil todas as vezes que o <eol/>julgar necessario ao desempenho das suas funcções, e <eol breakAt="2" breakWith="-"/>terá, pelo menos, uma sessão por semana.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_41" GUID="B333D175-5A60-4626-9E4B-7D24416E8776"><num>Art. 41.º</num>
+                <content><p>O expediente da commissão districtal está a <eol/>cargo dos empregados da junta geral, nos termos do <eol breakAt="2" breakWith="-"/>artigo <ref href="#att_1__art_13">13.º</ref></p></content>
+              </article>
+              <article eId="att_1__art_42" GUID="D531BAF5-8634-4F84-911C-128571743EBA"><num>Art. 42.º</num>
+                <content><p>A commissão districtal corresponde-se, por <eol/>via do seu presidente, com todas as auctoridades e <eol breakAt="5" breakWith="-"/>repartições publicas, do mesmo modo por que o faz a junta <eol breakAt="2" breakWith="-"/>geral, conforme o artigo <ref href="#att_1__art_16">16.º</ref><eop number="314a"/></p></content>
+              </article>
+              <article eId="att_1__art_43" GUID="5408BE7F-9BB0-43F6-8F92-74368EFC351E"><num>Art. 43.º</num>
+                <content><p>Das sessões da commissão districtal se <eol breakAt="2" breakWith="-"/>lavrarão actas em livro especial.</p></content>
+              </article>
+              <article eId="att_1__art_44" GUID="176CA082-7229-478B-990D-1F61DB5CBD59"><num>Art. 44.º</num>
+                <content><p>Nas reuniões e deliberações da commissão <eol/>districtal observar-se-ha, na parte applicavel, o que está <eol/>disposto no codigo administrativo para os corpos <eol breakAt="7" breakWith="-"/>administrativos em geral.</p></content>
+              </article>
+              <article eId="att_1__art_45" GUID="1F53B320-88DB-4960-A2D4-871FC38294D9"><num>Art. 45.º</num>
+                <content><p>Sem que haja conformidade de tres votos <eol/>não são validas nem executorias as deliberações da <eol breakAt="3" breakWith="-"/>commissão districtal.</p></content>
+              </article>
+              <article eId="att_1__art_46" GUID="696FF5BD-9E70-466B-9D3A-48EA1899E5D4"><num>Art. 46.º</num>
+                <content><p>Os membros da commissão districtal não <eol/>têem direito a retribuição.</p></content>
+              </article>
+              <article eId="att_1__art_47" GUID="B6BD41FD-EE89-4904-8291-D7642D06CFC8"><num>Art. 47.º</num>
+                <intro><p>Á commissão districtal compete:</p></intro>
+                <list eId="att_1__art_47__list_1" GUID="42EE4E5E-7F4B-4DAF-8EFC-E5C44B76052D">
+                  <point eId="att_1__art_47__list_1__point_1" GUID="D141C72D-41DF-428D-A058-D92489154227"><num>1.º</num><content><p>Executar e fazer executar todas as deliberações da <eol/>junta geral;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_2" GUID="39743128-5E3C-41D3-BA0B-5CA599ED6055"><num>2.º</num><content><p>Propor á junta os orçamentos districtaes;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_3" GUID="F5B5B7B7-EA3E-4746-B9BA-C089B10DEC26"><num>3.º</num><content><p>Ordenar as despezas em conformidade com os <eol breakAt="4" breakWith="-"/>orçamentos e deliberações da junta geral;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_4" GUID="A7371D97-941E-4257-AD25-5356CCF27EEE"><num>4.º</num><content><p>Dirigir o expediente ordinario;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_5" GUID="D48188D2-9DF1-464E-88D9-483B0B34DA50"><num>5.º</num><content><p>Corresponder-se com todas as auctoridades ou <eol breakAt="3" breakWith="-"/>corporações com quem a junta se corresponde;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_6" GUID="88F18060-CDF5-474F-A47F-C81D80974468"><num>6.º</num><content><p>Prestar as contas da gerencia dos rendimentos <eol breakAt="6" breakWith="-"/>districtaes;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_7" GUID="2E52CFA6-BA60-4FD8-B906-CE25B6D2AFCF"><num>7.º</num><content><p>Inspeccionar todos os serviços da competencia da <eol/>junta geral;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_8" GUID="87E79FC8-32E5-483F-B8CA-81E795DFAA5E"><num>8.º</num><content><p>Representar o districto;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_9" GUID="4849271F-788C-4242-9A8D-638DF5FD82AA"><num>9.º</num><content><p>Apresentar á junta propostas ou projectos de <eol breakAt="4" breakWith="-"/>organisação ou reforma de qualquer serviço districtal;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_10" GUID="A33E3E7E-F11A-4B9D-8944-F4E53E136DE7"><num>10.º</num><content><p>Exercer, na ausencia da junta geral, as attribuições <eol/>de que tratam os artigos <ref href="#att_1__art_19">19.º</ref>, <ref href="#att_1__art_20">20.º</ref> e <ref href="#att_1__art_21">21.º</ref>;</p></content></point>
+                  <point eId="att_1__art_47__list_1__point_11" GUID="950176F8-B89A-4535-9D0F-EFEBAE8D82A4"><num>11.º</num><content><p>Exercer, na ausencia da junta geral, as demais <eol/>attribuições que competem á mesma junta em todos os <eol/>negocios cuja resolução não possa ser adiada sem prejuizo <eol/>para a administração, e que não justifiquem, em virtude <eol/>da sua importancia, a convocação extraordinaria da junta <eol/>geral.</p></content></point>
+                </list>
+                <paragraph eId="att_1__art_47__para_1" GUID="E6D900CC-DE08-4BAF-846B-89E9D454E7F9"><num>§ 1.º</num>
+                  <content><p>Serão sempre da exclusiva competencia da junta <eol/>geral as deliberações ácerca dos objectos de que trata o <eol/>artigo <ref href="#att_1__art_24">24.º</ref> d'este decreto.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_47__para_2" GUID="76A97B6E-0BEB-4738-9631-65FA6400FF29"><num>§ 2.º</num>
+                  <content><p>O presidente da commissão districtal representa a <eol/>junta geral em juizo ou fóra d'elle, e n'esta qualidade <eol breakAt="2" breakWith="-"/>escolhe os advogados e procuradores que forem necessarios.</p></content>
+                </paragraph>
+                <paragraph eId="att_1__art_47__para_3" GUID="06525A46-9933-4164-BAB9-40328C61F803"><num>§ 3.º</num>
+                  <content><p>Recusando a commissão districtal ordenar o <eol breakAt="2" breakWith="-"/>pagamento de despezas regularmente auctorisadas e <eol breakAt="7" breakWith="-"/>liquidadas, poderão os interessados reclamar perante o <eol breakAt="5" breakWith="-"/>competente auditor, o qual, depois de ouvir a commissão, <eol breakAt="2" breakWith="-"/>ordenará o pagamento, se achar justa a reclamação. A <eol/>ordem do auditor terá os mesmos effeitos que a da <eol breakAt="3" breakWith="-"/>commissão districtal, e poderá servir de base á execução.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_48" GUID="503A5B83-A4D5-4AC9-8476-7A14801A6C94"><num>Art. 48.º</num>
+                <content><p>Em todas as sessões da junta geral, tanto <eol/>ordinarias como extraordinarias, a commissão districtal <eol/>lhe apresentará um relatorio das providencias e <eol breakAt="8" breakWith="-"/>deliberações que tiver tomado, desde o encerramento da ultima <eol/>sessão.</p></content>
+              </article>
+              <article eId="att_1__art_49" GUID="0CA5D655-F653-4F9B-85FF-2105F8B9202A"><num>Art. 49.º</num>
+                <content><p>As deliberações da commissão districtal <eol breakAt="2" breakWith="-"/>podem ser revogadas pela junta geral nas sessões ordinarias, <eol/>ou nas extraordinarias para esse fim convocadas, quando <eol/>da revogação não resulte damno irreparavel ou prejuizo <eol/>de direitos adquiridos.</p></content>
+              </article>
+              <article eId="att_1__art_50" GUID="D964E627-FEBE-40BB-A61C-E10DF51D9588"><num>Art. 50.º</num>
+                <content><p>Os membros da commissão districtal são <eol breakAt="2" breakWith="-"/>solidariamente responsaveis para com a fazenda do districto <eol/>pelos actos que praticarem em desaccordo com as <eol breakAt="6" breakWith="-"/>deliberações da junta, ou com o disposto nas leis e <eol breakAt="9" breakWith="-"/>regulamentos de administração publica.</p></content>
+              </article>
+              <article eId="att_1__art_51" GUID="990FF76E-EFBB-4A75-8BE8-4CA53171356A"><num>Art. 51.º</num>
+                <intro><p>Dos actos da commissão districtal póde <eol breakAt="2" breakWith="-"/>reclamar-se para a junta geral.</p></intro>
+                <paragraph eId="att_1__art_51__para_unico" GUID="6ACED977-003B-41A3-A0C4-E8A9BC4F9A01"><num>§ unico.</num>
+                  <content><p>Se a junta não estiver reunida, ou não revogar <eol/>o acto impugnado, póde reclamar-se para o auditor, <eol breakAt="2" breakWith="-"/>havendo offensa de direitos e nos casos de nullidade.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_52" GUID="3D597248-5098-40CF-B74E-93DD30D17E45"><num>Art. 52.º</num>
+                <content><p>Quando a commissão districtal julgar <eol breakAt="5" breakWith="-"/>necessaria a convocação extraordinaria da junta geral, assim o <eol/>levará ao conhecimento do governo, por intermedio do <eop number="314b" breakAt="2" breakWith="-"/>governador civil, com a exposição dos motivos que <eol breakAt="7" breakWith="-"/>justifiquem a convocação.</p></content>
+              </article>
+            </chapter>
+            <chapter eId="att_1__chp_V" GUID="65E936BD-241C-4EB7-8C5D-41B6CC87DC6A"><num>CAPITULO V</num><heading>Camaras municipaes</heading>
+              <article eId="att_1__art_53" GUID="858E6E4D-E2E0-437C-A43A-0A9EC43C59EE"><num>Art. 53.º</num>
+                <content><p>Pertence á respectiva junta geral e á sua <eol breakAt="3" breakWith="-"/>commissão executiva a tutela de todas as camaras municipaes, <eol/>excepto no que respeita a emprestimos, percentagem de <eol breakAt="2" breakWith="-"/>impostos directos, quando exceda 50 por cento, creação de <eol/>empregos e outros assumptos da exclusiva competencia <eol/>tutelar do governo, segundo as disposições do codigo <eol breakAt="2" breakWith="-"/>administrativo.</p></content>
+              </article>
+              <article eId="att_1__art_54" GUID="68D361AF-32E2-4ACA-A2A0-6828249A8A48"><num>Art. 54.º</num>
+                <content><p>Acrescem ás despezas obrigatorias das <eol breakAt="4" breakWith="-"/>camaras municipaes as da construcção, reparação, conservação <eol/>e limpeza dos caminhos e fontes parochiaes para cuja <eol breakAt="2" breakWith="-"/>dotação as mesmas corporações cobrarão o imposto de <eol breakAt="4" breakWith="-"/>prestação de trabalho facultado pelo codigo administrativo ás <eol/>juntas de parochia.</p></content>
+              </article>
+            </chapter>
+            <chapter eId="att_1__chp_VI" GUID="B8604734-3F53-49F2-93AD-F35F451AE301"><num>CAPITULO VI</num><heading>Disposições geraes, penaes e transitorias</heading>
+              <article eId="att_1__art_55" GUID="846702ED-DE3B-48E1-A7E3-7A0DD38B9682"><num>Art. 55.º</num>
+                <content><p>Em tudo que não se ache expressamente <eol breakAt="3" breakWith="-"/>previsto n'este decreto, é applicavel o disposto no codigo <eol breakAt="2" breakWith="-"/>administrativo.</p></content>
+              </article>
+              <article eId="att_1__art_56" GUID="6A9D28D6-B274-452C-9253-4D00C9CF859C"><num>Art. 56.º</num>
+                <content><p>Passa para cargo da junta geral do districto a <eol/>despeza com o pessoal e material dos serviços pecuarios <eol/>e agricolas e da respectiva direcção das obras publicas, <eol/>com excepção do que se refira a docas ou outras obras <eol/>especiaes, cuja construcção continuar a expensas do <eol breakAt="2" breakWith="-"/>estado.</p></content>
+              </article>
+              <article eId="att_1__art_57" GUID="A295D32B-AB20-41B4-9A13-1413AB324AD2"><num>Art. 57.º</num>
+                <content><p>O governo entregará á junta geral a <eol breakAt="5" breakWith="-"/>importancia, que no districto ja tenha sido arrecadada, dos <eol breakAt="2" breakWith="-"/>impostos destinados a soccorros a naufragos e hospitalisação <eol/>de alienados, o material sufficiente para uma estação <eol breakAt="3" breakWith="-"/>chimico-agricola, o já adquirido para a collocação dos <eol breakAt="3" breakWith="-"/>pharoes, os planos e orçamentos d'estes e das estradas em <eol/>construcção ou projectadas, a posse dos terrenos ou <eol breakAt="3" breakWith="-"/>predios expropriados pelo estado para esse fim, e um edificio <eol/>publico, havendo-o, para se adaptar a hospital de <eol breakAt="6" breakWith="-"/>alienados.</p></content>
+              </article>
+              <article eId="att_1__art_58" GUID="F84AD536-818A-4497-B47B-AA015822EA50"><num>Art. 58.º</num>
+                <content><p>Nenhuma obra de construcção ou reparação <eol/>de valor excedente a 1:000$000 réis poderá ser effectuada <eol/>pela junta geral sem que o projecto e orçamentos <eol breakAt="5" breakWith="-"/>respectivos tenham sido previamente approvados pelo governo, <eol/>ouvido o conselho superior de obras publicas e minas.</p></content>
+              </article>
+              <article eId="att_1__art_59" GUID="BF64210D-7567-4A5C-AA11-38DF50A7E279"><num>Art. 59.º</num>
+                <intro><p>Os procuradores á junta geral do districto, <eol/>que sem motivo justificado deixarem de comparecer ás <eol/>sessões, incorrerão na multa de 5$000 réis por cada <eol breakAt="3" breakWith="-"/>sessão diaria a que faltarem.</p></intro>
+                <paragraph eId="att_1__art_59__para_unico" GUID="D701A4CB-442A-46EE-99CB-CCEA1EC9C156"><num>§ unico.</num>
+                  <content><p>Se as faltas forem mais de dez em cada anno <eol/>ou menos de dez, mas excedentes ás de uma sessão <eol breakAt="4" breakWith="-"/>ordinaria ou extraordinaria, alem da multa correspondente aos <eol/>dias das faltas, incorrerão tambem os procuradores na <eol breakAt="2" breakWith="-"/>pena de suspensão dos direitos politicos por dois annos.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_60" GUID="EC4CB83A-F2BC-4DDF-9BEC-F3FF349BD05D"><num>Art. 60.º</num>
+                <intro><p>Os vogaes da commissão districtal que <eol breakAt="5" breakWith="-"/>deixarem de reunir-se em sessão, ao menos uma vez por <eol breakAt="4" breakWith="-"/>semana, incorrerão na multa de 2$000 réis por cada sessão a <eol/>que faltarem.</p></intro>
+                <paragraph eId="att_1__art_60__para_unico" GUID="4214540F-66D1-471F-A672-D400FEF9C359"><num>§ unico.</num>
+                  <content><p>Se as faltas forem mais de dez incorrerão <eol breakAt="3" breakWith="-"/>tambem na pena comminada no § unico do artigo antecedente.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_1__art_61" GUID="BE24FFF9-00F4-4C49-B384-DBBCC375A52A"><num>Art. 61.º</num>
+                <content><p>São extensivas á commissão districtal as <eol breakAt="3" breakWith="-"/>disposições dos artigos 421.º, 422.º, 425.º, 426.º, 438.º e <eol/>439.º do codigo administrativo.</p></content>
+              </article>
+              <article eId="att_1__art_62" GUID="F3EF04CF-ECC5-4428-8D9E-130D0BE687F6"><num>Art. 62.º</num>
+                <content><p>Á junta geral cobrará os emolumentos fixados <eol/>no capitulo I da tabella approvada por carta de lei de 23 <eol/>de agosto de 1887.</p></content>
+              </article>
+              <article eId="att_1__art_63" GUID="CEE9191C-52F9-4CD7-8A30-C6ABB8470D60"><num>Art. 63.º</num>
+                <content><p>O governo fará os regulamentos necessarios <eol/>para a execução da presente organisação administrativa.</p></content>
+              </article>
+            </chapter>
+          </body>
+          <conclusions xml:lang="pt">
+            <p class="signed">Paço, em 2 de março de 1895. = <person refersTo="#fr" as="#minister">João Ferreira Franco <eol/>Pinto Castello Branco</person>.</p>
+            <p class="dg">D. do G. n.º 50, de 4 de março.<eop number="315a"/></p>
+          </conclusions>
+        </act>
+      </attachment>
+    </attachments>
+  </act>
+</akomaNtoso>
